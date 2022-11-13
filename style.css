@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: grey;
+}
+
+img {
+    display: block;
+}
+
+.main-area {
+    min-width: 600px;
+    background-color: white;
+    margin: 4rem;
+    padding: 0 2.5rem 0 2.5rem;
+    box-shadow: 2px 5px 20px;
+}
+
+.initials-container {
+    width: 15%;
+    height: 120px;
+    background-color: rgb(89, 138, 243);
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    top: 45px;
+    left: 5px;
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.7rem;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.name
+h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    color: rgb(89, 138, 243);
+}
+
+.position
+h3 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    color: rgb(89, 138, 243);
+}
+
+.contact-container {
+    line-height: 2rem;
+}
+
+
+.contact-paper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contact-paper
+img {
+    width: 14px;
+    height: 17px;
+    margin: 0.4rem 0 0 0;
+}
+
+.contact-paper
+h3 {
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+main
+li {
+    margin: 0 0 0 2rem;
+    line-height: 2rem;
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    color: rgb(55, 117, 252);
+}
+
+.profile-p {
+    margin: 6rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.skills-p {
+    margin: 2.5rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.cert-p {
+    margin: 2.5rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.edu-p {
+    margin: 2.5rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.edu-sub-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h5 {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.lang-p {
+    margin: 2.5rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: steelblue;
+    text-decoration: underline;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .edu-sub-p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .name-container {
+        margin-top: 1rem;
+    }
+
+    .contact-container {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .edu-sub-p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .name-container {
+        margin-top: 1rem;
+    }
+
+    .contact-container {
+        margin-top: 1rem;
+    }
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .edu-sub-p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .name-container {
+        margin-top: 1rem;
+    }
+
+    .contact-container {
+        margin-top: 1rem;
+    }
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .edu-sub-p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .name-container {
+        margin-top: 1rem;
+    }
+
+    .contact-container {
+        margin-top: 1rem;
+    }
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
